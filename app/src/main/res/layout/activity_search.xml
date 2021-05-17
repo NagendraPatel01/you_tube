@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity"
+    android:orientation="vertical"
+    android:background="#040A25">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+
+        <EditText
+            android:id="@+id/edit"
+            android:backgroundTint="#fff"
+            android:hint="Enter music"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </EditText>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:background="#E91E63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:textSize="20sp">
+
+    </Button>
+
+</LinearLayout>
